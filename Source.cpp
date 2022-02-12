@@ -14,7 +14,7 @@ int main() {
 	srand(time(NULL));
 	for (int i = 0; i < N; i++) {
 		arr[i] = rand() % 30 - 25;
-		cout << "Òåìïåðàòóðà " << i + 1 << " ÷èñëà " << arr[i] << "\n\n";
+		cout << "Ã’Ã¥Ã¬Ã¯Ã¥Ã°tÃ²Ã³Ã°Ã  " << i + 1 << " Ã·Ã¨Ã±Ã«Ã  " << arr[i] << "\n\n";
 		sum += arr[i];
 	}
 	for (int i = 0; i < temp; i++) {
